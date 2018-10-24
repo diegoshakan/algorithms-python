@@ -1,0 +1,28 @@
+Sistema Para um Banco
+
+1. Cadastrar Cliente:
+- Nome;
+- CPF;
+- Tipo de Conta (Poupança ou Corrente);
+- Valor Inicial.
+
+2. Verificar Cliente:
+- Número da Conta (Que será a chave);
+- Todas as Contas do Banco.
+
+3. Saque:
+- Identificar o número da conta para fazer o saque;
+- Retirar valor ao Valor Inicial (Não existe cheque especial).
+
+4. Depósito:
+- Identificar o número da conta para fazer o depósito;
+- Acrescentar valor ao valor inicial.
+
+5. Verificar Saldo:
+- Chamar nome e valor, pelo número da conta (Chave).
+
+6. Transferência:
+- De qual conta sairá o valor e para qual conta irá.
+
+7. Remover Cliente:
+- Número da Conta (Que será a chave).
