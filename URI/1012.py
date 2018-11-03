@@ -17,9 +17,9 @@ decimal.
 '''
 entradas = input().split(' ')
 A, B, C = entradas
-tri = (float(A) * float(C))/2
-circ = 3.14159 * float(C) ** 2
-trap = ((float(A) + float(B)) * float(C))/2
-quad = float(B)**2
-retan = float(A) * float(B)
+tri = (int(A) * int(C))/2
+circ = 3.14159 * int(C) ** 2
+trap = ((int(A) + int(B)) * int(C))/2
+quad = int(B)**2
+retan = int(A) * int(B)
 print('TRIANGULO: {:.3f}\nCIRCULO: {:.3f}\nTRAPEZIO: {:.3f}\nQUADRADO: {:.3f}\nRETANGULO: {:.3f}'.format(tri, circ, trap, quad, retan))

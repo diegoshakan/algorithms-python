@@ -10,8 +10,8 @@ montante total das vendas efetuadas por este vendedor, respectivamente.
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.'''
 
 nome = input()
-salfixo = float(input())
-vendas = float(input())
+salfixo = int(input())
+vendas = int(input())
 
 vendas = vendas * 0.15
 salfixo = salfixo + vendas
